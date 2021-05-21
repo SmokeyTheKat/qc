@@ -1,0 +1,2 @@
+# qc
+simple quick calcuate

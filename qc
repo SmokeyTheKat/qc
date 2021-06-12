@@ -1,5 +1,10 @@
 #!/bin/python3
 import sys
+from math import *
+
+def fact(v):
+	return factorial(v)
+
 argv = sys.argv[1:]
 def main():
 	if len(argv) == 0:
@@ -22,6 +27,9 @@ def main():
 						cur = eval(value)
 						print(cur)
 						pass
+					elif value[0].isalpha():
+						cur = eval(value)
+						print(cur)
 					else:
 						cur = eval(str(cur) + value)
 						print(cur)

@@ -1,6 +1,5 @@
 PREFIX=~/.local
 
-all:
-	@echo "run \"make install\" to install or just run \"./qc\" to run :)"
+all install:
 install:
-	cp ./qc $(PREFIX)/bin/
+	cp ./qc.py ${PREFIX}/bin/qc

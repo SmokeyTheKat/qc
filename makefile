@@ -1,5 +1,5 @@
 PREFIX=~/.local
 
-all install:
+all: install
 install:
 	cp ./qc.py ${PREFIX}/bin/qc
